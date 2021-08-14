@@ -19168,7 +19168,7 @@ body:not(.has-sticky) .bnr-sticky
     .prd.hovered:not(.prd--action-off) .prd-price,
     .prd.hovered:not(.prd--action-off) .prd-action
     {
-        transform: translateY(-43px);
+        display: block;
     }
     .prd.hovered .countdown-box
     {
@@ -25606,7 +25606,7 @@ body:not(.has-sticky) .filter-col--sticky .filter-col-content
         z-index: 159;
         top: 0;
 
-        width: 50px;
+        width: 150px;
         height: 50px;
     }
     .filter-toggle,
@@ -25615,7 +25615,7 @@ body:not(.has-sticky) .filter-col--sticky .filter-col-content
     .filter-toggle-horizontal:focus
     {
         color: #fff; 
-        background-color: #17c6aa;
+        
     }
     .filter-toggle:hover,
     .filter-toggle-horizontal:hover
@@ -25623,7 +25623,7 @@ body:not(.has-sticky) .filter-col--sticky .filter-col-content
         text-decoration: none; 
 
         color: #fff;
-        background-color: #000;
+        
     }
 }
 .filter-toggle [class*='icon-']:last-child,
@@ -25634,7 +25634,7 @@ body:not(.has-sticky) .filter-col--sticky .filter-col-content
 
 .filter-toggle:first-child
 {
-    display: none;
+    /* display: none; */
 }
 
 .has-sticky .filter-toggle
@@ -34358,7 +34358,7 @@ body.has-round-btns .form-inline .form-control
     display: block;
     overflow: hidden;
 
-    background-color: #f9f9f9;
+    
 }
 .post-prw-img img
 {
@@ -43344,6 +43344,19 @@ body
     border: 5px solid white;
   /* width: 20%; */
 }
+.filter__button{ 
+    width: 180px;
+    background: none;
+    color: black;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 16px;
+}
+
+.filter__button:hover{
+    background: black;
+    color: white;
+}
 
 .editorial-img1 {
     top: 50%;
@@ -43489,3 +43502,4 @@ body
        width: 20%;
     }
  }
+

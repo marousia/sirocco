@@ -5689,20 +5689,7 @@ function onYouTubeIframeAPIReady() {
 						if (isMobile) {
 							$('.js-filter-toggle').css({ 'margin-left': '', 'margin-right': '' });
 							$('.footer-sticky').css({ 'bottom': $('.js-filter-toggle').outerHeight() });
-						} else {
-							if ($('body').hasClass('rtl')) {
-								$('.js-filter-toggle').css({
-									'margin-right': -left + 'px',
-									'margin-left': -50 + left + 'px'
-								});
-							} else {
-								$('.js-filter-toggle').css({
-									'margin-left': -left + 'px',
-									'margin-right': -50 + left + 'px'
-								});
-							}
-							$('.footer-sticky').css({ 'bottom': '' });
-						}
+						} 
 						setTimeout(function () {
 							$(that.options.mobileFilter).addClass('filter-col--init');
 						}, delay);
