@@ -23573,8 +23573,8 @@ body.touch .prd-block_main-image .slick-prev:not(.slick-disabled):hover:not(.sli
 .btn--add-to-cart:visited,
 .btn--add-to-cart:focus
 {
-    color: #fff;
-    background-color: #17c6aa;
+    color: white;
+    background-color: rgb(39, 39, 39);
 }
 
 .btn--add-to-cart:hover,
@@ -24680,8 +24680,7 @@ body.equal-height .product-main-carousel .slick-slide > span img
 
 .prd-block_actions--wishlist.prd-block_actions .btn-wrap > *
 {
-    margin-right: 5px; 
-    margin-left: 5px;
+    
 }
 
 .btn-wishlist-wrap
@@ -26605,7 +26604,7 @@ img.color-bordered
     display: -ms-flexbox;
     display: flex;
 
-    width: 50px;
+    width: 75px;
     min-height: 30px;
 
     transition: none; 
