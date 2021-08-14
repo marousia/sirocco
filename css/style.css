@@ -18500,7 +18500,7 @@ body:not(.has-sticky) .bnr-sticky
 {
     .prd:not(.prd--action-off) .prd-price
     {
-       
+       height: 43px;
     }
 }
 
@@ -19168,7 +19168,7 @@ body:not(.has-sticky) .bnr-sticky
     .prd.hovered:not(.prd--action-off) .prd-price,
     .prd.hovered:not(.prd--action-off) .prd-action
     {
-      
+        transform: translateY(-43px);
     }
     .prd.hovered .countdown-box
     {
