@@ -5925,7 +5925,7 @@ body:not(.has-btn-not-upper) .btn
     text-decoration: none;
     color: black;
     outline: none;
-    background-color: white;
+    background-color: transparent;
     box-shadow: none !important
 }
 .btn:hover,
