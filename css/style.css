@@ -43082,7 +43082,7 @@ body
 }
 
 .block_category>a>img{
-    min-width:170px;
+    min-width:180px;
     height: 250px;
     border:2px solid #cacaca;
     border-radius: 5px;
