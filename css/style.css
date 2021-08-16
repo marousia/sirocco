@@ -43562,6 +43562,9 @@ body
 
 
 @media (min-width:1024px){
+    .list_a{
+        text-align: left;
+    }
 
     .complete-block{
         padding-bottom: 60%;
@@ -43601,4 +43604,5 @@ body
 
 .woman__p{
     color: grey;
+    font-weight: 300;
 }
