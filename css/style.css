@@ -43564,3 +43564,10 @@ body
 
    
 }
+
+.text_help_link a{
+    font-weight: bold;
+    text-decoration: underline;
+    color: black; 
+}
+
