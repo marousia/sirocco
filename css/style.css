@@ -5958,7 +5958,7 @@ body:not(.has-btn-not-upper) .btn
 {
     .btn
     {
-        padding: 15px 20px;
+        padding: 7px 20px;
     }
 }
 
@@ -25594,6 +25594,8 @@ body:not(.has-sticky) .filter-col--sticky .filter-col-content
 .filter-toggle-horizontal [class*='icon']
 {
     width: 100%;
+    position: absolute;
+    left: -419px
 }
 @media (min-width: 1025px)
 {
@@ -43118,6 +43120,13 @@ body
     text-decoration: none;
 }
 
+.title_category a:hover{
+    background: black;
+    color:white;
+    border-radius: 5px;
+    height: 32px;
+    padding: 10px 40px;
+}
 
 
 @media (min-width:300px) and (max-width: 410px){
@@ -43570,4 +43579,26 @@ body
     text-decoration: underline;
     color: black; 
 }
+@media (min-width:320px) and (max-width: 575px){
+    .bnslider-arrows .slick-prev:before, .bnslider-arrows .slick-next:before{
+        background-color:white!important;
+        color: black!important;
+    }
+.bnslider-arrows.container-fluid .slick-next{
+    right: -40%;
+}
 
+.bnslider-arrows.container-fluid .slick-prev{
+    left: -40%;
+}
+}
+
+.woman__h2{
+    font-size: 30pt;
+    margin-top: 63px;
+    font-weight: bold;
+}
+
+.woman__p{
+    color: grey;
+}
